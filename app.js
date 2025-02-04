@@ -26,6 +26,16 @@ class App {
     this.$sidebar = document.querySelector(".sidebar");
     this.$sidebarActiveItem= document.querySelector(".active-item");
 
+
+    // Initialize the FirebaseUI Widget using Firebase.
+    this.ui = new firebaseui.auth.AuthUI(auth);
+    this.ui.start('#firebaseui-auth-container', {
+      signInOptions: [
+        firebase.auth.EmailAuthProvider.PROVIDER_ID
+      ],
+      // Other config options...
+    });
+
     this.addEventListeners();
     this.displayNotes();
   }
