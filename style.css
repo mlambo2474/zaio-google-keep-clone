@@ -6,6 +6,10 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.app{
+  display: block;
+}
+
 
 /* HOVER EFFECTS  */
 .material-symbols-outlined {
@@ -41,6 +45,18 @@
 
 .tooltip:hover .tooltip-text {
   visibility: visible;
+}
+
+.profile-actions-area{
+  display: flex;
+}
+.profile-actions-area .tooltip{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-userr{
+  cursor: pointer;
 }
 
 /* NAVBAR STYLES  */
