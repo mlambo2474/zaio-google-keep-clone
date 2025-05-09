@@ -103,6 +103,9 @@ input:focus {
 .search-area span {
   margin-left: 10px;
 }
+.img{
+  border-radius: 100%;
+}
 
 /* MAIN SECTION STYLES */
 
@@ -126,12 +129,12 @@ input:focus {
     background: white;
 }
 .active {
-  background-color: #fef0c3;
+  background-color: #f7de8d;
   border-radius: 50%;
   color: black;
 }
 .active:hover {
-  background-color: #fef0c3;
+  background-color:#f7de8d;
 }
 
 .sidebar .sidebar-item {
@@ -147,6 +150,7 @@ input:focus {
   font-size: 0.9rem;
   margin-left: 20px;
   width: 250px;
+  visibility: visible;
 }
 
 .sidebar-item .material-symbols-outlined {
@@ -158,19 +162,19 @@ input:focus {
 }
 
 .sidebar-item:hover {
-  background: #f1f3f4;
+  background:#f1f3f4;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
 
 .sidebar-active-item {
-  background-color: #fef0c3;
+  background-color: #f7de8d;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
 
 .sidebar-active-item:hover {
-  background-color: #fef0c3;
+  background-color:#f7de8d;
 }
 
 /* MAIN FORM  */
@@ -325,3 +329,4 @@ input:focus {
 .open-modal {
   visibility: visible;
 }
+
